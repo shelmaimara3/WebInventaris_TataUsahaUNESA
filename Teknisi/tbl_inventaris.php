@@ -4,7 +4,7 @@ session_start();
 if (!$_SESSION) {
   header('Location:../login.php');
 }
-$connection = new mysqli("localhost","root","","inventaris");
+$connection = new mysqli("sql104.byethost7.com","b7_31783816","qwerty567","b7_31783816_inventaris");
 $result = mysqli_query ($connection,"SELECT*FROM tb_data");
 ?>
 
